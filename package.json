@@ -1,0 +1,23 @@
+{
+  "name": "@ocilar/sdk",
+  "version": "0.1.0",
+  "description": "Official Node.js SDK for Ocilar — CAPTCHA solving and document extraction API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["captcha", "solver", "ocr", "sat", "recaptcha", "hcaptcha", "cloudflare", "document-ai", "ocilar"],
+  "author": "Ocilar <support@ocilar.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InsaneTreset/ocilar-node"
+  },
+  "homepage": "https://ocilar.com",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
